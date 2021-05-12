@@ -14,7 +14,7 @@ const HomePage = () => {
             </Helmet>
             {/* Hero Section */}
             <div className="hero flex content-center items-center align-center w-full h-screen p-6 md:p-10">
-                <img className="z-0 w-full h-full absolute top-0 left-0 home-banner-img" src={Family} />
+                <img className="z-0 w-full h-screen absolute top-0 left-0 home-banner-img" src={Family} />
                 <div className="z-10 hero-centered m-auto text-white text-center md:w-4/5">
                     <h1>Insurance to Help You Protect What Matters Most</h1>
                     <h2 className="md:w-4/5 mx-auto">Sleep better knowing even in the worst situations, you're covered and we'll have your back every step of the way.</h2>
