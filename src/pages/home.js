@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Link } from "gatsby";
+import { Helmet } from 'react-helmet';
 
 import Carousel from '../components/carousel';
 import Family from '../images/family.jpg';
@@ -7,6 +8,10 @@ import Family from '../images/family.jpg';
 const HomePage = () => {
     return(
         <div>
+            <Helmet>
+                <title>Ott Insurance Agency</title>
+                <meta name="description" content="Insurance to Help You Protect What Matters Most"></meta>
+            </Helmet>
             {/* Hero Section */}
             <div className="hero flex content-center items-center align-center w-full h-screen p-6 md:p-10">
                 <img className="z-0 w-full h-full absolute top-0 left-0 home-banner-img" src={Family} />
