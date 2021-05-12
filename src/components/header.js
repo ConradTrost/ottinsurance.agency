@@ -1,5 +1,6 @@
 import * as React from 'react';
 import whiteLogo from '../images/White_Logo.png';
+import { Link } from "gatsby";
 
 const Header = () => {
     return(

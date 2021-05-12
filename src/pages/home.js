@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Link } from "gatsby"
+import { Link } from "gatsby";
 
 import Carousel from '../components/carousel';
 import Family from '../images/family.jpg';
