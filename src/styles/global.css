@@ -201,4 +201,24 @@ header {
     .reviews-section {
         height: 300px;
     }
+    .quote-container iframe {
+        height: calc(100vh - 10rem);
+    }
+    .nav-cta .blue-btn.hidden {
+        display: none;
+    }
+    .nav-cta {
+        margin: auto 10px;
+    }
+}
+
+.quote-container iframe {
+    max-width: 100%;
+    height: calc(100vh - 10rem);
+}
+
+.blue-btn:hover, .btn:hover {
+    transition-duration: 0.2s;
+    transition: transform;
+    transform: translate(0, -2px);
 }
