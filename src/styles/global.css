@@ -1,0 +1,199 @@
+/* ./src/styles/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Concept Medium';
+    src: url('../fonts/Concept_Medium.ttf') format('ttf');
+}
+
+body {
+    width: 100%;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+@media only screen and (max-width: 650px) {
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .hero h2 {
+        font-size: 18px !important;
+    }
+    .hero h3 {
+        font-size: 22px !important;
+    }
+}
+
+.hero h2 {
+    font-size: 32px;
+}
+
+.hero h3 {
+    font-size: 36px;
+}
+
+p {
+    font-family: 'Concept Medium', sans-serif;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+header {
+    height: 80px;
+    background: #49646d91;
+    z-index: 9999;
+}
+
+.nav-cta a {
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.nav-cta {
+    margin: 10px 20px; 
+}
+
+.nav-cta .blue-btn, .buttons .blue-btn {
+    margin: auto 10px !important;
+}
+
+.nav-logo img {
+    width: auto;
+    height: auto;
+    max-height: 80px;
+    padding: 16px;
+}
+
+.home-banner-img {
+    object-fit: cover;
+    filter: brightness(0.85);
+}
+
+.hero-centered {
+    text-shadow: 2px 2px 2px rgb(29, 29, 29);
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #fff;
+    margin: 10px auto;
+}
+
+.blue-btn, .nav-cta .blue-btn {
+    padding: 10px 20px;
+    background-color: #2B2E71;
+    border-radius: 8px;
+    color: #fff;
+    margin: 10px auto;
+    border: 1px solid #2B2E71;
+    display: table;
+}
+
+.blue-btn.white {
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.two-col-wrap .text-side {
+    color: #fff;
+}
+
+.two-col-wrap img {
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.first.two-col-wrap {
+    background-color: #76949F;
+}
+
+.second.two-col-wrap {
+    background-color: #597066;
+}
+
+.third.two-col-wrap {
+    background-color: #A37B7B;
+}
+
+/* Carousel */
+.carousel-container {
+    background: #2C2E71;
+}
+
+.greyish {
+    background-color: #76949F;
+}
+
+/* Card Section */
+.card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 28px;
+    color: black;
+    box-shadow: 6px 10px 12px rgb(44, 44, 44);
+}
+
+.card .card-body p {
+    font-size: 14px;
+}
+
+.card .card-header h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Carousel */
+.carousel {
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 20px;
+    height: 20px;
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.left-arrow {
+    left: 0;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.right-arrow {
+    right: 0;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.reviews-section .review {
+    height: 240px;
+}
