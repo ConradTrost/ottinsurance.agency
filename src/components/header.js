@@ -9,7 +9,7 @@ const Header = () => {
                 <Link to="/"><img className="p-4" src={whiteLogo} /></Link>
             </div>
             <div className="nav-cta justify-around hidden md:flex">
-                <Link href="/quote" className="blue-btn white">Request a Quote</Link>
+                <Link to="quote" className="blue-btn white">Request a Quote</Link>
                 <a href="tel:+1972-329-4811" className="blue-btn">Call Now</a>
             </div>
         </header>
