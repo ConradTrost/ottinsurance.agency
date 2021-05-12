@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from "gatsby"
 
 import Carousel from '../components/carousel';
 import Family from '../images/family.jpg';
@@ -13,7 +14,7 @@ const HomePage = () => {
                     <h1>Insurance to Help You Protect What Matters Most</h1>
                     <h2 className="md:w-4/5 mx-auto">Sleep better knowing even in the worst situations, you're covered and we'll have your back every step of the way.</h2>
                     <h3>Home &#183; Auto &#183; Life &#183; Business</h3>
-                    <button class="blue-btn">Get Protected</button>
+                    <Link to="quote" className="blue-btn">Get Protected</Link>
                 </div>
             </div>
             {/* End Hero Section */}
@@ -22,7 +23,7 @@ const HomePage = () => {
                 <h2>You're probably far less protected than you think.</h2>
                 <p>We hear "I thought I was covered" from new customer almost every day. <br />They come to us after a disaster with their budget plan, or because a confusing policy left them vulnerable and it cost them everything</p>
                 <p>Whether you choose us or not, we'll review your current policies at no cost, show you how and where they leave you at risk, and outline customized options to better fit your specific needs.</p>
-                <button className="blue-btn">Get a Free Policy Review</button>
+                <Link to="quote" className="blue-btn">Get a Free Policy Review</Link>
             </div>
 
             <div className="two-col-wrap grid md:grid-cols-2 first">
@@ -30,7 +31,7 @@ const HomePage = () => {
                 <div className="text-center p-10 md:p-20 m-auto text-side">
                     <h3>Less Stress &#38; Worrying</h3>
                     <p>With us, you'll never have to worry that your next accident or rough patch could threaten your family's well-being, your financial security, or your business.</p>
-                    <button className="blue-btn">Get Protected</button>
+                    <Link to="quote" className="blue-btn">Get Protected</Link>
                 </div>
             </div>
 
@@ -39,7 +40,7 @@ const HomePage = () => {
                     <h3>Support You Can Count On</h3>
                     <p>If something happens and you have to file a claim, we'll be there every step of the way.</p>
                     <p>No surprises. No loopholes. <br />Just support when you need it most.</p>
-                    <button className="blue-btn">Call us.</button>
+                    <a href="tel:+1972-329-4811" className="blue-btn">Call Us.</a>
                 </div>
                 <img className="w-auto order-first md:order-last" src={Family} />
             </div>
@@ -50,7 +51,7 @@ const HomePage = () => {
                     <h3>Honest &#38; Transparent</h3>
                     <p>Pushy insurance salesman and complicated policies can get you in trouble fast.</p>
                     <p>As a family-owned agency, we put transparency and integrity first. You'll receive the same quality service, attention, and insider advice we give our own families. That's our promise.</p>
-                    <button className="blue-btn">Get Started</button>
+                    <Link to="quote" className="blue-btn">Get Started</Link>
                 </div>
             </div>
 
@@ -67,7 +68,7 @@ const HomePage = () => {
                 </div>
 
                 <div class="btn-container my-10 md:my-0 mb-10">
-                    <a href="#" className="btn greyish">Get Protected Now</a>
+                    <Link to="quote" className="btn greyish">Get Protected Now</Link>
                 </div>
             </div>
 
@@ -107,7 +108,7 @@ const HomePage = () => {
                     </div>
                 </div>
                 <div className="buttons flex justify-center my-10">
-                        <a href="/quote" className="btn blue-btn white">Request a Quote</a>
+                        <Link to="quote" className="btn blue-btn white">Request a Quote</Link>
                         <a href="tel:+1972-329-4811" className="btn blue-btn">Call Now</a>
                     </div>
             </div>
