@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    pathPrefix: "/ottinsurance.agency",
     title: "ottinsurance.agency",
   },
   plugins: [
