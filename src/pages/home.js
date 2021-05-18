@@ -109,7 +109,7 @@ const HomePage = () => {
           <Carousel />
         </div>
 
-        <div class="btn-container my-10 md:my-0 mb-10">
+        <div class="btn-container md:my-0 mb-10">
           <Link to="quote" className="btn greyish">
             Get Protected Now
           </Link>
