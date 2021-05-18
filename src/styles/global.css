@@ -8,8 +8,24 @@
     src: url('../fonts/Concept_Medium.ttf') format('ttf');
 }
 
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/JosefinSans-VariableFont_wght.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'The Braggest';
+    src:  url('../fonts/TheBraggest.woff2') format('woff2'),
+          url('../fonts/TheBraggest.woff') format('woff');
+}
+
 body {
     width: 100%;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
 }
 
 h1 {
@@ -54,7 +70,7 @@ h3 {
 p {
     font-family: 'Concept Medium', sans-serif;
     font-size: 18px;
-    margin: 10px 0;
+    margin: 20px auto;
 }
 
 header {
@@ -156,6 +172,26 @@ header {
     box-shadow: 6px 10px 12px rgb(44, 44, 44);
 }
 
+.card > div {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.card.one > div {
+    background-image: url('../images/blob-1.png');
+}
+
+.card.two > div {
+    background-image: url('../images/blob-2.png');
+}
+
+.card.three > div {
+    background-image: url('../images/blob-3.png');
+}
+
 .card .card-body p {
     font-size: 14px;
 }
@@ -195,6 +231,11 @@ header {
     flex-direction: column;
     justify-content: space-between;
     height: 240px;
+}
+
+.review-author {
+    font-family: 'The Braggest', sans-serif;
+    font-size: 36px;
 }
 
 @media only screen and (max-width: 768px) {

@@ -56,7 +56,7 @@ const Carousel = () => {
                     <p>{reviewArr[slider].review}</p>
                 </div>
                 <img className="w-48 mx-auto"  src={FiveStars} />
-                <p>{reviewArr[slider].author}</p>
+                <p className="review-author">{reviewArr[slider].author}</p>
             </div>
 
         </div>
