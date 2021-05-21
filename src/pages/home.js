@@ -110,7 +110,7 @@ const HomePage = () => {
         </div>
 
         <div class="btn-container md:my-0 mb-10">
-          <Link to="quote" className="btn greyish">
+          <Link to="quote" className="btn blue-btn my-0 greyish">
             Get Protected Now
           </Link>
         </div>
@@ -119,7 +119,7 @@ const HomePage = () => {
       {/* Instructions Section */}
       <div className="instructions-container p-10 md:p-20 min-h-screen text-center text-white greyish">
         <div className="md:w-3/5 m-auto">
-          <h2 className="md:w-4/5 m-auto">We know what it's like to get burned by unreliable insurance.</h2>
+          <h2 className="md:w-4/5 m-auto">Getting the best coverage doesn’t have to be difficult.</h2>
           <p>
             We started Ott Insurance Agency because we believe you shouldn't have to deal with sneaky salesman or
             becoming an insurance expert just to get the coverage you deserve.

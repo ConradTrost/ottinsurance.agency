@@ -19,6 +19,10 @@
           url('../fonts/TheBraggest.woff') format('woff');
 }
 
+html {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 body {
     width: 100%;
 }
@@ -68,7 +72,7 @@ h3 {
 }
 
 p {
-    font-family: 'Concept Medium', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
     margin: 20px auto;
 }
@@ -106,7 +110,7 @@ header {
     filter: brightness(0.75);
 }
 
-.hero-centered {
+.hero-centered h1, .hero-centered h2, .hero-centered h3 {
     text-shadow: 2px 2px 2px rgb(29, 29, 29);
 }
 
@@ -127,9 +131,23 @@ header {
     display: table;
 }
 
+.blue-btn:hover, .nav-cta .blue-btn:hover {
+    transition: background-color;
+    transition-duration: 0.7s;
+    background-color: #fff;
+    color: #2B2E71;
+}
+
 .blue-btn.white {
     background: transparent;
     border: 1px solid #fff;
+}
+
+.blue-btn.white:hover {
+    transition: background-color;
+    transition-duration: 1s;
+    color: #fff;
+    background-color: #2B2E71;
 }
 
 .two-col-wrap .text-side {
@@ -160,6 +178,8 @@ header {
 
 .greyish {
     background-color: #76949F;
+    border: 1px solid #76949F;
+    margin: 0 auto;
 }
 
 /* Card Section */
@@ -256,10 +276,4 @@ header {
 .quote-container iframe {
     max-width: 100%;
     height: calc(100vh - 10rem);
-}
-
-.blue-btn:hover, .btn:hover {
-    transition-duration: 0.2s;
-    transition: transform;
-    transform: translate(0, -2px);
 }
