@@ -78,7 +78,7 @@ p {
 }
 
 header {
-    height: 80px;
+    height: 100px;
     background: #49646d91;
     z-index: 9999;
 }
@@ -101,7 +101,7 @@ header {
 .nav-logo img {
     width: auto;
     height: auto;
-    max-height: 80px;
+    max-height: 100px;
     padding: 16px;
 }
 
@@ -276,4 +276,16 @@ header {
 .quote-container iframe {
     max-width: 100%;
     height: calc(100vh - 10rem);
+}
+
+.instructions-container {
+    background: #597066;
+}
+@media only screen and (max-width: 768px) {
+    header {
+        height: 80px;
+    }
+    .nav-logo img {
+        max-height: 80px;
+    }
 }
