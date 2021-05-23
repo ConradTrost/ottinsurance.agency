@@ -5,6 +5,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 import Carousel from "../components/carousel";
 import Family from "../images/family.jpg";
+import Footer from '../components/footer';
 
 const HomePage = () => {
   return (
@@ -176,7 +177,9 @@ you need to protect what matters most. Here’s how it works:</p>
           </Link>
         </div>
       </div>
-      </div>
+
+      <Footer />
+    </div>
   );
 };
 

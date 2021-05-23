@@ -40,8 +40,8 @@ const Carousel = () => {
     }
 
     const thirdReview = {
-        review: 'I didn\'t realize that I didn\'t have full coverage with my previous car insurance. When Seth reviewed my policy, he genuinely cared about making sure I was fully insured for my safety and explained my new policy well.',
-        author: 'Fake Review.'
+        review: 'Seth explained coverage & answered all our questions. Their customer service is exceptional! They understood our concerns & put us at ease!',
+        author: 'Dawn F.'
     }
 
     const reviewArr = [firstReview, secondReview, thirdReview];
