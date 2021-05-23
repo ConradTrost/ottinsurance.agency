@@ -7,6 +7,15 @@ module.exports = {
     "gatsby-plugin-postcss",
     "gatsby-plugin-image",
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Josefin Sans`
+        ],
+        display: 'swap'
+      }
+    },
+    {
       resolve: "gatsby-plugin-google-analytics",
       options: {
         trackingId: "G-0BT1GNGD1R",

@@ -7,7 +7,7 @@ import whiteLogo from "../images/White_Logo.png";
 const Footer = () => {
   return (
     <div className="p-10 lg:px-20 flex flex-col md:flex-row justify-around footer greyish">
-      <div className="footer-logo order-last md:order-none mt-10 md:mt-0">
+      <div className="footer-logo mb-10 md:mb-0">
         <Link to="/">
           <img className="p-4 m-auto" height="auto" src={whiteLogo} />
         </Link>

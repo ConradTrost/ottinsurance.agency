@@ -8,15 +8,26 @@
     src: url('../fonts/Concept_Medium.ttf') format('ttf');
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Josefin Sans';
     src: url('../fonts/JosefinSans-VariableFont_wght.ttf') format('ttf');
-}
+} */
+
+/* @font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/josefinsans-variablefont-webfont.woff2') format('woff2'), 
+         url('../fonts/josefinsans-variablefont-webfont.woff') format('woff'), 
+         url('../fonts/JosefinSans-VariableFont_wght.ttf')  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  } */
 
 @font-face {
     font-family: 'The Braggest';
     src:  url('../fonts/TheBraggest.woff2') format('woff2'),
           url('../fonts/TheBraggest.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 html {
@@ -214,6 +225,7 @@ header {
 
 .card .card-body p {
     font-size: 14px;
+    margin-top: 5px;
 }
 
 .card .card-header h3 {
