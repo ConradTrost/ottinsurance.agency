@@ -43,6 +43,10 @@ h1, h2, h3, h4 {
     font-weight: 600;
 }
 
+h1, h2 {
+    font-weight: 700;
+}
+
 h1 {
     font-size: 48px;
 }
@@ -55,31 +59,13 @@ h3 {
     font-size: 28px;
 }
 
-@media only screen and (max-width: 650px) {
-    h1 {
-        font-size: 28px;
-    }
-    h2 {
-        font-size: 24px;
-    }
-    h3 {
-        font-size: 22px;
-        font-weight: 600;
-    }
-    .hero h2 {
-        font-size: 18px !important;
-    }
-    .hero h3 {
-        font-size: 22px !important;
-    }
-}
-
 .hero h2 {
-    font-size: 32px;
+    font-size: 36px;
 }
 
 .hero h3 {
-    font-size: 36px;
+    font-size: 34px;
+    font-weight: 400;
 }
 
 p {
@@ -103,10 +89,6 @@ header {
 
 .nav-cta {
     margin: 10px 20px; 
-}
-
-.nav-cta .blue-btn, .buttons .blue-btn {
-    margin: auto 10px !important;
 }
 
 .nav-logo img {
@@ -161,6 +143,14 @@ header {
     background-color: #2B2E71;
 }
 
+.blue-btn {
+    font-size: 20px;
+}
+
+.nav-cta .blue-btn {
+    font-size: 16px;
+}
+
 .two-col-wrap .text-side {
     color: #fff;
 }
@@ -180,6 +170,10 @@ header {
 
 .third.two-col-wrap {
     background-color: #A37B7B;
+}
+
+.two-col-wrap h3 {
+    font-weight: 700;
 }
 
 /* Carousel */
@@ -224,7 +218,7 @@ header {
 }
 
 .card .card-body p {
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 5px;
 }
 
@@ -262,27 +256,12 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 240px;
+    height: 350px;
 }
 
 .review-author {
     font-family: 'The Braggest', sans-serif;
     font-size: 36px;
-}
-
-@media only screen and (max-width: 768px) {
-    .reviews-section {
-        height: 380px;
-    }
-    .quote-container iframe {
-        height: calc(100vh - 10rem);
-    }
-    .nav-cta .blue-btn.hidden {
-        display: none;
-    }
-    .nav-cta {
-        margin: auto 10px;
-    }
 }
 
 .quote-container iframe {
@@ -293,8 +272,6 @@ header {
 .instructions-container {
     background: #597066;
 }
-
-
 
 .footer-logo img {
     max-height: 120px;
@@ -314,11 +291,54 @@ header {
     margin-bottom: 10px;
 }
 
+.nav-cta .blue-btn, .buttons .blue-btn {
+    margin: auto 10px;
+}
+
 @media only screen and (max-width: 768px) {
+    .reviews-section {
+        height: 380px;
+    }
+    .quote-container iframe {
+        height: calc(100vh - 10rem);
+    }
+    .nav-cta .blue-btn.hidden {
+        display: none;
+    }
+    .nav-cta {
+        margin: auto 10px;
+    }
     header {
         height: 80px;
     }
     .nav-logo img {
         max-height: 80px;
+    }
+    .buttons {
+        width: 100%;
+        display: block;
+    }
+    .buttons .blue-btn {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .hero h2 {
+        font-size: 24px !important;
+    }
+    .hero h3 {
+        font-size: 22px !important;
     }
 }

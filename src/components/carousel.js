@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import FiveStars from '../images/five-stars.png';
 
@@ -29,6 +29,19 @@ const Carousel = () => {
         }
     }
 
+    useEffect(() => {
+        const timer = window.setInterval(() => {
+            if (slider >= 2) {
+                setSlider(0);
+                return;
+            } else {
+                setSlider(slider + 1);
+                return;
+            }
+        }, 8000);
+        return () => clearInterval(timer);
+    }, [slider]) 
+
     const firstReview = {
         review: 'Seth and his team were tremendously helpful with the explanation of covereage. We received multiple options and a personal video going over all our options.',
         author: 'Tony P.'
@@ -55,7 +68,7 @@ const Carousel = () => {
                 <div className="review flex justify-center flex-col">
                     <p>{reviewArr[slider].review}</p>
                 </div>
-                <img className="w-48 mx-auto"  src={FiveStars} />
+                <img className="w-48 mx-auto" alt=""  src={FiveStars} />
                 <p className="review-author">{reviewArr[slider].author}</p>
             </div>
 

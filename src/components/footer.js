@@ -24,8 +24,8 @@ const Footer = () => {
     <div className="footer-social w-3/5 m-auto md:w-auto">
         <h3 className="text-white md:text-right text-center my-10 md:my-0">Connect <br />on Social</h3>
         <div className="social-icons flex justify-around">
-            <Link target="_blank" to="https://www.linkedin.com/company/ott-insurance-agency/"><StaticImage src="../images/linkedin-logo.png" /></Link>
-            <Link target="_blank" to="https://www.facebook.com/ottinsuranceagency.farmers/"><StaticImage src="../images/facebook-logo.png" /></Link>
+            <a target="_blank" rel="noreferrer nofollower" href="https://www.linkedin.com/company/ott-insurance-agency/"><StaticImage src="../images/linkedin-logo.png" /></a>
+            <a target="_blank" rel="nofollower noreferrer" href="https://www.facebook.com/ottinsuranceagency.farmers/"><StaticImage src="../images/facebook-logo.png" /></a>
         </div>
     </div>
 

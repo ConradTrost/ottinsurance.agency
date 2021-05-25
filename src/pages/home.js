@@ -16,15 +16,15 @@ const HomePage = () => {
       </Helmet>
       {/* Hero Section */}
       <div className="hero flex content-center items-center align-center w-full h-screen p-6 md:p-10">
-        <img className="z-0 w-full h-screen absolute top-0 left-0 home-banner-img" src={Family} />
+        <img alt="" className="z-0 w-full h-screen absolute top-0 left-0 home-banner-img" src={Family} />
         <div className="z-10 hero-centered m-auto text-white text-center">
           <h1>Insurance to Help You Protect What Matters Most</h1>
           <div className="md:w-4/5 mx-auto">
-          <h2>
+          <h3>
             Sleep better knowing even in the worst situations, you're covered and we'll have your back every step of the
             way.
-          </h2>
-          <h3>Home &#183; Auto &#183; Life &#183; Business</h3>
+          </h3>
+          <h2>Home &#183; Auto &#183; Life &#183; Business</h2>
           <Link to="quote" className="blue-btn">
             Get Protected
           </Link>
@@ -113,7 +113,7 @@ you need to protect what matters most. Here’s how it works:</p>
       </div>
 
       <div className="two-col-wrap grid md:grid-cols-2 first">
-        <StaticImage className="w-auto" src="../images/father-son-1.jpg" />
+        <StaticImage alt="father and son hugging" className="w-auto" src="../images/father-son-1.jpg" />
         <div className="text-center p-10 md:p-20 m-auto text-side">
           <h3>Less Stress &#38; Worrying</h3>
           <p>
@@ -138,11 +138,11 @@ you need to protect what matters most. Here’s how it works:</p>
             Call Us
           </a>
         </div>
-        <StaticImage className="w-auto order-1 md:order-3" src="../images/father-child-2.jpg" />
+        <StaticImage alt="father and baby" className="w-auto order-1 md:order-3" src="../images/father-child-2.jpg" />
       </div>
 
       <div className="two-col-wrap grid md:grid-cols-2 third">
-        <StaticImage className="w-auto" src="../images/family-of-3-3.jpg" />
+        <StaticImage alt="family sitting in a park" className="w-auto" src="../images/family-of-3-3.jpg" />
         <div className="text-center p-10 md:p-20 m-auto text-side">
           <h3>Honest &#38; Transparent</h3>
           <p>Pushy insurance salesman and complicated policies can get you in trouble fast.</p>

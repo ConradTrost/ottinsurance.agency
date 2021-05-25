@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: "/ottinsurance.agency",
   siteMetadata: {
     title: "ottinsurance.agency",
   },
@@ -10,7 +9,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Josefin Sans`
+          `Josefin Sans\:400,600,700`
         ],
         display: 'swap'
       }
