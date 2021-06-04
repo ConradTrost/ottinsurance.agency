@@ -14,8 +14,8 @@ const Footer = () => {
       </div>
 
       <div className="footer-info md:w-3/5 text-left text-white md:px-10">
-        <p>7000 Parkwood Boulevard, Ste G200</p>
-        <p>Frisco, TX 75034</p>
+      <a className="address-footer" target="_blank" rel="nofollower noreferrer" href="https://g.page/FarmersInsuranceSethOtt?share"><p>7000 Parkwood Boulevard, Ste G200</p>
+        <p>Frisco, TX 75034</p></a>
         <p>972-329-4811</p>
         <p>Hours: M-F 8:00 AM - 5:00 PM</p>
         <p>Evening and weekend appointments available.</p>

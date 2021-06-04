@@ -342,3 +342,7 @@ header {
         font-size: 22px !important;
     }
 }
+
+.address-footer {
+    text-decoration: underline;
+}
