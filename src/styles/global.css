@@ -205,6 +205,12 @@ header {
     width: 100%;
 }
 
+@media only screen and (min-width: 1450px) {
+    .card {
+        padding: 60px 20px;
+    }
+}
+
 .card.one > div {
     background-image: url('../images/blob-1.png');
 }

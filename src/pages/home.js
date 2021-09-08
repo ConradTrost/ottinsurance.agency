@@ -34,7 +34,8 @@ const HomePage = () => {
       {/* End Hero Section */}
 
             {/* Instructions Section */}
-            <div className="instructions-container p-10 md:p-20 min-h-screen text-center text-white">
+            <div className="instructions-container p-10 md:p-20 min-h-screen text-center text-white flex">
+              <div className="instructions-wrapper-inner m-auto">
         <div className="md:w-3/5 m-auto">
           <h2 className="md:w-4/5 m-auto">Getting the best coverage doesn’t have to be difficult.</h2>
           <p>We’ve created a simple plan that will help you get the coverage 
@@ -42,7 +43,8 @@ you need to protect what matters most. Here’s how it works:</p>
         </div>
 
         <div className="card-wrapper grid md:grid-cols-3 gap-4 my-10 md:w-4/5 m-auto">
-          <div className="card one">
+          
+          <div className="card one flex">
             <div>
                 <div className="card-header">
                 <h3>1. We'll evaluate your current policies for free.</h3>
@@ -92,9 +94,10 @@ you need to protect what matters most. Here’s how it works:</p>
             Call Now
           </a>
         </div>
+        </div>
       </div>
 
-      <div className="main container mx-auto text-center md:w-4/5 p-10">
+      <div className="main container mx-auto text-center md:w-4/5 p-10 py-20">
         <h2>You're probably far less protected than you think.</h2>
         <div className="md:w-3/5 m-auto">
             <p>
