@@ -8,6 +8,12 @@
     src: url('../fonts/Concept_Medium.ttf') format('ttf');
 }
 
+:root {
+    --primary-color: #2C7B9F;
+    --secondary-color: #31B3D3;
+    --text-color: #545253;
+}
+
 /* @font-face {
     font-family: 'Josefin Sans';
     src: url('../fonts/JosefinSans-VariableFont_wght.ttf') format('ttf');
@@ -76,7 +82,7 @@ p {
 
 header {
     height: 100px;
-    background: #49646d91;
+    background: #2c7b9fb9;
     z-index: 9999;
 }
 
@@ -103,6 +109,11 @@ header {
     filter: brightness(0.75);
 }
 
+.hero-centered {
+    background: #2c7b9fb9;
+    border-radius: 60px;
+}
+
 .hero-centered h1, .hero-centered h2, .hero-centered h3 {
     text-shadow: 2px 2px 2px rgb(29, 29, 29);
 }
@@ -114,13 +125,18 @@ header {
     margin: 10px auto;
 }
 
+.blue-btn.secondary {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+}
+
 .blue-btn, .nav-cta .blue-btn {
     padding: 10px 20px;
-    background-color: #2B2E71;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
     border-radius: 8px;
     color: #fff;
     margin: 10px auto;
-    border: 1px solid #2B2E71;
     display: table;
 }
 
@@ -128,7 +144,7 @@ header {
     transition: background-color;
     transition-duration: 0.7s;
     background-color: #fff;
-    color: #2B2E71;
+    color: var(--primary-color);
 }
 
 .blue-btn.white {
@@ -140,7 +156,7 @@ header {
     transition: background-color;
     transition-duration: 1s;
     color: #fff;
-    background-color: #2B2E71;
+    background-color: var(--primary-color);
 }
 
 .blue-btn {
@@ -152,7 +168,7 @@ header {
 }
 
 .two-col-wrap .text-side {
-    color: #fff;
+    color: var(--text-color);
 }
 
 .two-col-wrap img {
@@ -160,7 +176,11 @@ header {
     object-fit: cover;
 }
 
-.first.two-col-wrap {
+.two-col-wrap {
+    color: var(--text-color);
+}
+
+/* .first.two-col-wrap {
     background-color: #76949F;
 }
 
@@ -170,7 +190,7 @@ header {
 
 .third.two-col-wrap {
     background-color: #A37B7B;
-}
+} */
 
 .two-col-wrap h3 {
     font-weight: 700;
@@ -178,12 +198,20 @@ header {
 
 /* Carousel */
 .carousel-container {
-    background: #2C2E71;
+    background: var(--primary-color);
+}
+
+.second-section {
+    background-color: var(--primary-color);
+}
+
+.second-section h2, .second-section p {
+    color: #fff;
 }
 
 .greyish {
-    background-color: #76949F;
-    border: 1px solid #76949F;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
     margin: 0 auto;
 }
 
@@ -276,7 +304,7 @@ header {
 }
 
 .instructions-container {
-    background: #597066;
+    background: var(--secondary-color);
 }
 
 .footer-logo img {
@@ -299,6 +327,12 @@ header {
 
 .nav-cta .blue-btn, .buttons .blue-btn {
     margin: auto 10px;
+}
+
+/* Join Team Section */
+.join-team img {
+    border-radius: 100%;
+    border: 10px solid var(--secondary-color);
 }
 
 @media only screen and (max-width: 768px) {

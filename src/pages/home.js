@@ -17,7 +17,7 @@ const HomePage = () => {
       {/* Hero Section */}
       <div className="hero flex content-center items-center align-center w-full h-screen p-6 md:p-10">
         <img alt="" className="z-0 w-full h-screen absolute top-0 left-0 home-banner-img" src={Family} />
-        <div className="z-10 hero-centered m-auto text-white text-center">
+        <div className="z-10 hero-centered m-auto text-white text-center py-10">
           <h1>Insurance to Help You Protect What Matters Most</h1>
           <div className="md:w-4/5 mx-auto">
           <h3>
@@ -25,7 +25,7 @@ const HomePage = () => {
             way.
           </h3>
           <h2>Home &#183; Auto &#183; Life &#183; Business</h2>
-          <Link to="quote" className="blue-btn">
+          <Link to="quote" className="blue-btn secondary">
             Get Protected
           </Link>
           </div>
@@ -33,8 +33,94 @@ const HomePage = () => {
       </div>
       {/* End Hero Section */}
 
-            {/* Instructions Section */}
-            <div className="instructions-container p-10 md:p-20 min-h-screen text-center text-white flex">
+      <div className="main p-10 py-20 second-section">
+        <div className="md:w-4/5 container mx-auto text-center">
+          <h2>You're probably far less protected than you think.</h2>
+          <div className="md:w-3/5 m-auto">
+              <p>
+              We hear "I thought I was covered" from new customer almost every day. <br />
+              They come to us after a disaster with their budget plan, or because a confusing policy left them vulnerable
+              and it cost them everything
+              </p>
+              <p>
+              Whether you choose us or not, we'll review your current policies at no cost, show you how and where they leave
+              you at risk, and outline customized options to better fit your specific needs.
+              </p>
+              <Link to="quote" className="blue-btn secondary">
+              Get a Free Policy Review
+              </Link>
+          </div>
+        </div>
+      </div>
+
+      <div className="two-col-wrap grid md:grid-cols-2 first">
+        <StaticImage alt="father and son hugging" className="w-auto" src="../images/father-son-1.jpg" />
+        <div className="text-center p-10 md:p-20 m-auto text-side">
+          <h3>Less Stress &#38; Worrying</h3>
+          <p>
+            With us, you'll never have to worry that your next accident or rough patch could threaten your family's
+            well-being, your financial security, or your business.
+          </p>
+          <Link to="quote" className="blue-btn">
+            Get Protected
+          </Link>
+        </div>
+      </div>
+
+      <div className="two-col-wrap grid md:grid-cols-2 second">
+        <div className="text-center p-10 md:p-20 m-auto text-side order-2">
+          <h3>Support You Can Count On</h3>
+          <p>If something happens and you have to file a claim, we'll be there every step of the way.</p>
+          <p>
+            No surprises. No loopholes. <br />
+            Just support when you need it most.
+          </p>
+          <a href="tel:+1972-329-4811" className="blue-btn">
+            Call Us
+          </a>
+        </div>
+        <StaticImage alt="father and baby" className="w-auto order-1 md:order-3" src="../images/father-child-2.jpg" />
+      </div>
+
+      <div className="two-col-wrap grid md:grid-cols-2 third">
+        <StaticImage alt="family sitting in a park" className="w-auto" src="../images/ott-seth-img.png" />
+        <div className="text-center p-10 md:p-20 m-auto text-side">
+          <h3>Honest &#38; Transparent</h3>
+          <p>Pushy insurance salesman and complicated policies can get you in trouble fast.</p>
+          <p>
+            As a family-owned agency, we put transparency and integrity first. You'll receive the same quality service,
+            attention, and insider advice we give our own families. That's our promise.
+          </p>
+          <Link to="quote" className="blue-btn">
+            Get Started
+          </Link>
+        </div>
+      </div>
+
+      {/* Carousel Section */}
+      <div className="carousel-container p-6 py-10 md:p-20 min-h-screen text-center text-white flex flex-col justify-between">
+        <div className="md:w-3/5 mx-auto">
+          <h2 className="md:w-4/5 mx-auto">We know what it's like to get burned by unreliable insurance.</h2>
+          <p>
+            We started Ott Insurance Agency because we believe you shouldn't have to deal with sneaky salesman or
+            becoming an insurance expert just to get the coverage you deserve.
+          </p>
+        </div>
+
+        <div class="carousel-wrapper review-carousel w-full md:w-3/5 mx-auto md:p-0 my-10">
+          <h2>See What Our Clients Are Saying</h2>
+          <Carousel />
+        </div>
+
+        <div class="btn-container md:my-0 mb-10">
+          <Link to="quote" className="btn blue-btn secondary">
+            Get Protected Now
+          </Link>
+        </div>
+      </div>
+
+                  {/* Instructions Section */}
+                  <div className="instructions-container p-10 md:p-20 min-h-screen text-center text-white flex">
               <div className="instructions-wrapper-inner m-auto">
         <div className="md:w-3/5 m-auto">
           <h2 className="md:w-4/5 m-auto">Getting the best coverage doesn’t have to be difficult.</h2>
@@ -97,87 +183,18 @@ you need to protect what matters most. Here’s how it works:</p>
         </div>
       </div>
 
-      <div className="main container mx-auto text-center md:w-4/5 p-10 py-20">
-        <h2>You're probably far less protected than you think.</h2>
-        <div className="md:w-3/5 m-auto">
-            <p>
-            We hear "I thought I was covered" from new customer almost every day. <br />
-            They come to us after a disaster with their budget plan, or because a confusing policy left them vulnerable
-            and it cost them everything
-            </p>
-            <p>
-            Whether you choose us or not, we'll review your current policies at no cost, show you how and where they leave
-            you at risk, and outline customized options to better fit your specific needs.
-            </p>
-            <Link to="quote" className="blue-btn">
-            Get a Free Policy Review
-            </Link>
+      {/* Join Our Team Section */}
+      <div className="join-team flex">
+        <div className="md:w-4/12  mx-6">
+          <StaticImage alt="Join Our team" src="../images/family-of-3-3.jpg" />
         </div>
-      </div>
 
-      <div className="two-col-wrap grid md:grid-cols-2 first">
-        <StaticImage alt="father and son hugging" className="w-auto" src="../images/father-son-1.jpg" />
-        <div className="text-center p-10 md:p-20 m-auto text-side">
-          <h3>Less Stress &#38; Worrying</h3>
-          <p>
-            With us, you'll never have to worry that your next accident or rough patch could threaten your family's
-            well-being, your financial security, or your business.
-          </p>
-          <Link to="quote" className="blue-btn">
-            Get Protected
-          </Link>
-        </div>
-      </div>
-
-      <div className="two-col-wrap grid md:grid-cols-2 second">
-        <div className="text-center p-10 md:p-20 m-auto text-side order-2">
-          <h3>Support You Can Count On</h3>
-          <p>If something happens and you have to file a claim, we'll be there every step of the way.</p>
-          <p>
-            No surprises. No loopholes. <br />
-            Just support when you need it most.
-          </p>
-          <a href="tel:+1972-329-4811" className="blue-btn">
-            Call Us
+        <div className="md:w-8/12 mx-6 text-center flex flex-col justify-center">
+          <h2>Join Our Team</h2>
+          <p>We are on a mission to help our community protect what matters most and understand exactly how their policy will perform come claim time.</p>
+          <a href="/jobs" className="btn blue-btn secondary">
+            Join Us
           </a>
-        </div>
-        <StaticImage alt="father and baby" className="w-auto order-1 md:order-3" src="../images/father-child-2.jpg" />
-      </div>
-
-      <div className="two-col-wrap grid md:grid-cols-2 third">
-        <StaticImage alt="family sitting in a park" className="w-auto" src="../images/family-of-3-3.jpg" />
-        <div className="text-center p-10 md:p-20 m-auto text-side">
-          <h3>Honest &#38; Transparent</h3>
-          <p>Pushy insurance salesman and complicated policies can get you in trouble fast.</p>
-          <p>
-            As a family-owned agency, we put transparency and integrity first. You'll receive the same quality service,
-            attention, and insider advice we give our own families. That's our promise.
-          </p>
-          <Link to="quote" className="blue-btn">
-            Get Started
-          </Link>
-        </div>
-      </div>
-
-      {/* Carousel Section */}
-      <div className="carousel-container p-6 py-10 md:p-20 min-h-screen text-center text-white flex flex-col justify-between">
-        <div className="md:w-3/5 mx-auto">
-          <h2 className="md:w-4/5 mx-auto">We know what it's like to get burned by unreliable insurance.</h2>
-          <p>
-            We started Ott Insurance Agency because we believe you shouldn't have to deal with sneaky salesman or
-            becoming an insurance expert just to get the coverage you deserve.
-          </p>
-        </div>
-
-        <div class="carousel-wrapper review-carousel w-full md:w-3/5 mx-auto md:p-0 my-10">
-          <h2>See What Our Clients Are Saying</h2>
-          <Carousel />
-        </div>
-
-        <div class="btn-container md:my-0 mb-10">
-          <Link to="quote" className="btn blue-btn greyish">
-            Get Protected Now
-          </Link>
         </div>
       </div>
 
