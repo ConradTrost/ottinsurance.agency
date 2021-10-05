@@ -360,8 +360,8 @@ header {
 }
 
 .ott-img-jobs  {
-    width: 400px;
-    height: 400px;
+    width: 380px;
+    height: 380px;
 }
 
 .ott-img-jobs img {
@@ -399,6 +399,12 @@ header {
         width: 100%;
         margin: 10px 0;
     }
+    .join-team p, .hero p {
+        font-size: 22px;
+    }
+    .carousel-container h2 {
+        font-size: 34px;
+    }
 }
 
 @media only screen and (max-width: 650px) {
@@ -417,6 +423,10 @@ header {
     }
     .hero h3 {
         font-size: 22px !important;
+    }
+    .ott-img-jobs  {
+        width: 300px;
+        height: 300px;
     }
 }
 

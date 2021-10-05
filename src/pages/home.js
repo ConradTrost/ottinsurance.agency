@@ -222,12 +222,12 @@ you need to protect what matters most. Here’s how it works:</p>
       </div>
 
       {/* Join Our Team Section */}
-      <div className="join-team flex">
-        <div className="md:w-4/12  mx-6 p-10">
-          <StaticImage alt="Join Our team" className="ott-img-jobs" src="../images/kristen-seth-desk.jpg" />
+      <div className="join-team lg:flex py-10">
+        <div className="lg:w-5/12  mx-auto md:mx-6 p-4 py-6 md:py-10 md:p-10 text-center">
+          <StaticImage alt="Join Our team" className="ott-img-jobs mx-auto" src="../images/kristen-seth-desk.jpg" />
         </div>
 
-        <div className="md:w-8/12 mx-6 text-center flex flex-col justify-center">
+        <div className="lg:w-7/12 mx-6 text-center flex flex-col justify-center md:p-6">
           <h2>Join Our Team</h2>
           <p>We are on a mission to help our community protect what matters most and understand exactly how their policy will perform come claim time.</p>
           <a href="/jobs" className="btn blue-btn secondary">
