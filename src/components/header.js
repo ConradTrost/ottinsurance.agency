@@ -10,7 +10,7 @@ const Header = () => {
             </div>
             <div className="nav-cta justify-around md:flex">
                 <Link to="quote" className="blue-btn white hidden">Request a Quote</Link>
-                <a href="tel:+1972-329-4811" className="blue-btn">Call Now</a>
+                <a href="tel:+1972-329-4811" className="blue-btn secondary btn">Call Now</a>
             </div>
         </header>
     )

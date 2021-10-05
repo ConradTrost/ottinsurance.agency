@@ -15,26 +15,38 @@ const HomePage = () => {
         <meta name="description" content="Insurance to Help You Protect What Matters Most"></meta>
       </Helmet>
       {/* Hero Section */}
-      <div className="hero flex content-center items-center align-center w-full h-screen p-6 md:p-10">
+      <div className="hero flex flex-col justify-center content-center items-center align-center w-full h-screen p-6 md:p-10">
         <img alt="" className="z-0 w-full h-screen absolute top-0 left-0 home-banner-img" src={Family} />
-        <div className="z-10 hero-centered m-auto text-white text-center py-10">
+        <div
+            data-sal="slide-up"
+            data-sal-duration="2000"
+            data-sal-delay="300"
+            data-sal-easing="ease" 
+            className="z-10 hero-centered mx-auto mb-6 mt-28 text-white text-center py-6 px-2">
           <h1>Insurance to Help You Protect What Matters Most</h1>
           <div className="md:w-4/5 mx-auto">
-          <h3>
+          <p>
             Sleep better knowing even in the worst situations, you're covered and we'll have your back every step of the
             way.
-          </h3>
+          </p>
           <h2>Home &#183; Auto &#183; Life &#183; Business</h2>
+          </div>
+          
+        </div>
+        <div className="w-screen text-center z-10">
           <Link to="quote" className="blue-btn secondary">
             Get Protected
           </Link>
-          </div>
         </div>
       </div>
       {/* End Hero Section */}
 
       <div className="main p-10 py-20 second-section">
-        <div className="md:w-4/5 container mx-auto text-center">
+        <div 
+          data-sal="slide-up"
+          data-sal-duration="1000"
+          data-sal-easing="ease" 
+          className="md:w-4/5 container mx-auto text-center">
           <h2>You're probably far less protected than you think.</h2>
           <div className="md:w-3/5 m-auto">
               <p>
@@ -55,7 +67,11 @@ const HomePage = () => {
 
       <div className="two-col-wrap grid md:grid-cols-2 first">
         <StaticImage alt="father and son hugging" className="w-auto" src="../images/father-son-1.jpg" />
-        <div className="text-center p-10 md:p-20 m-auto text-side">
+        <div
+          data-sal="slide-left"
+          data-sal-duration="1000"
+          data-sal-easing="ease" 
+          className="text-center p-10 md:p-20 m-auto text-side">
           <h3>Less Stress &#38; Worrying</h3>
           <p>
             With us, you'll never have to worry that your next accident or rough patch could threaten your family's
@@ -68,7 +84,11 @@ const HomePage = () => {
       </div>
 
       <div className="two-col-wrap grid md:grid-cols-2 second">
-        <div className="text-center p-10 md:p-20 m-auto text-side order-2">
+        <div 
+          data-sal="slide-right"
+          data-sal-duration="1000"
+          data-sal-easing="ease" 
+          className="text-center p-10 md:p-20 m-auto text-side order-2">
           <h3>Support You Can Count On</h3>
           <p>If something happens and you have to file a claim, we'll be there every step of the way.</p>
           <p>
@@ -84,7 +104,11 @@ const HomePage = () => {
 
       <div className="two-col-wrap grid md:grid-cols-2 third">
         <StaticImage alt="family sitting in a park" className="w-auto" src="../images/ott-seth-img.png" />
-        <div className="text-center p-10 md:p-20 m-auto text-side">
+        <div 
+          data-sal="slide-right"
+          data-sal-duration="1000"
+          data-sal-easing="ease" 
+          className="text-center p-10 md:p-20 m-auto text-side">
           <h3>Honest &#38; Transparent</h3>
           <p>Pushy insurance salesman and complicated policies can get you in trouble fast.</p>
           <p>
@@ -130,7 +154,11 @@ you need to protect what matters most. Here’s how it works:</p>
 
         <div className="card-wrapper grid md:grid-cols-3 gap-4 my-10 md:w-4/5 m-auto">
           
-          <div className="card one flex">
+          <div 
+                    data-sal="slide-up"
+                    data-sal-duration="1000"
+                    data-sal-easing="ease" 
+                    className="card one flex">
             <div>
                 <div className="card-header">
                 <h3>1. We'll evaluate your current policies for free.</h3>
@@ -144,7 +172,12 @@ you need to protect what matters most. Here’s how it works:</p>
             </div>
           </div>
 
-          <div className="card two">
+          <div 
+                    data-sal="slide-up"
+                    data-sal-duration="1000"
+                    data-sal-delay="200"
+                    data-sal-easing="ease" 
+                    className="card two">
             <div>
                 <div className="card-header">
                 <h3>2. We'll build a custom plan just for you.</h3>
@@ -158,7 +191,12 @@ you need to protect what matters most. Here’s how it works:</p>
             </div>
           </div>
 
-          <div className="card three">
+          <div 
+                    data-sal="slide-up"
+                    data-sal-duration="1000"
+                    data-sal-delay="400"
+                    data-sal-easing="ease" 
+                    className="card three">
             <div>
                 <div className="card-header">
                 <h3>3. You can finally stop stressing about your insurance.</h3>
@@ -185,8 +223,8 @@ you need to protect what matters most. Here’s how it works:</p>
 
       {/* Join Our Team Section */}
       <div className="join-team flex">
-        <div className="md:w-4/12  mx-6">
-          <StaticImage alt="Join Our team" src="../images/family-of-3-3.jpg" />
+        <div className="md:w-4/12  mx-6 p-10">
+          <StaticImage alt="Join Our team" className="ott-img-jobs" src="../images/kristen-seth-desk.jpg" />
         </div>
 
         <div className="md:w-8/12 mx-6 text-center flex flex-col justify-center">
