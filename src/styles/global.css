@@ -352,11 +352,10 @@ header {
 }
 
 /* Join Team Section */
-.join-team .ott-img-jobs {
+.join-team .ott-img-jobs img {
     border-radius: 100%;
     border: 10px solid var(--secondary-color);
     object-position: right;
-    padding: 20px;
 }
 
 .ott-img-jobs  {

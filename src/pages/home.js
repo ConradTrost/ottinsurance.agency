@@ -105,7 +105,7 @@ const HomePage = () => {
       <div className="two-col-wrap grid md:grid-cols-2 third">
         <StaticImage alt="family sitting in a park" className="w-auto" src="../images/ott-seth-img.png" />
         <div 
-          data-sal="slide-right"
+          data-sal="slide-left"
           data-sal-duration="1000"
           data-sal-easing="ease" 
           className="text-center p-10 md:p-20 m-auto text-side">
