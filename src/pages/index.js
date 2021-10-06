@@ -1,6 +1,7 @@
 import * as React from "react";
 
 import Header from '../components/header';
+import Footer from '../components/footer';
 import HomePage from './home';
 
 const IndexPage = () => {
@@ -8,6 +9,7 @@ const IndexPage = () => {
     <main>
       <Header />
       <HomePage />
+      <Footer />
     </main>
   )
 }

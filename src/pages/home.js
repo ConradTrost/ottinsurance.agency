@@ -43,22 +43,35 @@ const HomePage = () => {
 
       <div className="main p-10 py-20 second-section">
         <div 
-          data-sal="slide-up"
-          data-sal-duration="1000"
-          data-sal-easing="ease" 
           className="md:w-4/5 container mx-auto text-center">
-          <h2>You're probably far less protected than you think.</h2>
+          <h2
+                    data-sal="slide-up"
+                    data-sal-duration="1000"
+                    data-sal-easing="ease" >
+                      You're probably far less protected than you think.</h2>
           <div className="md:w-3/5 m-auto">
-              <p>
+              <p
+                        data-sal="slide-up"
+                        data-sal-duration="1000"
+                        data-sal-easing="ease" 
+                        >
               We hear "I thought I was covered" from new customer almost every day. <br />
               They come to us after a disaster with their budget plan, or because a confusing policy left them vulnerable
               and it cost them everything
               </p>
-              <p>
+              <p
+                        data-sal="slide-up"
+                        data-sal-duration="1000"
+                        data-sal-easing="ease" 
+                        >
               Whether you choose us or not, we'll review your current policies at no cost, show you how and where they leave
               you at risk, and outline customized options to better fit your specific needs.
               </p>
-              <Link to="quote" className="blue-btn secondary">
+              <Link
+                        data-sal="slide-up"
+                        data-sal-duration="1000"
+                        data-sal-easing="ease" 
+                         to="quote" className="blue-btn secondary">
               Get a Free Policy Review
               </Link>
           </div>
@@ -236,7 +249,6 @@ you need to protect what matters most. Here’s how it works:</p>
         </div>
       </div>
 
-      <Footer />
     </div>
   );
 };
