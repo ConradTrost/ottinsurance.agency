@@ -20,7 +20,7 @@ const JobsPage = () => {
               <Link to="/"><img className="p-4" src={whiteLogo} /></Link>
           </div>
           <div className="nav-cta justify-around md:flex">
-              <Link to="quote" className="blue-btn hidden secondary border-white">Apply Now</Link>
+              <a target="_blank" rel="noreferrer nofollower" href="https://rhodiumtalent.applytojob.com/apply/PGvTsgxAmv/Licensed-Insurance-Agent" className="blue-btn hidden secondary border-white">Apply Now</a>
           </div>
       </header>
 
@@ -44,18 +44,18 @@ policies will perform come claim time.
           
         </div>
         <div className="w-screen text-center z-10">
-          <Link to="quote" className="blue-btn secondary">
+        <a target="_blank" rel="noreferrer nofollower" href="https://rhodiumtalent.applytojob.com/apply/PGvTsgxAmv/Licensed-Insurance-Agent" className="blue-btn secondary">
             Join Us
-          </Link>
+          </a>
         </div>
       </div>
       {/* End Hero Section */}
 
       <div className="main p-10 py-20 second-section">
         <div 
-          className=" container mx-auto text-center">
+          className="lg:px-10 container mx-auto text-center">
             <div className="3-cols-section md:grid md:grid-cols-3">
-              <div className="join-value-points my-8"
+              <div className="join-value-points m-8"
                 data-sal="slide-up"
                 data-sal-duration="1000"
                 data-sal-easing="ease" >
@@ -64,7 +64,7 @@ policies will perform come claim time.
                 <p>Do you people rave about the value you bring and look to you for that perfect recommendation?</p>
               </div>
 
-              <div className="join-value-points my-8"
+              <div className="join-value-points m-8"
                 data-sal="slide-up"
                 data-sal-duration="1000"
                 data-sal-delay="200"
@@ -74,7 +74,7 @@ policies will perform come claim time.
                 <p>Does your positive outlookallow you to achieve lofty goals and persevere through challenges?</p>
               </div>
 
-              <div className="join-value-points my-8"
+              <div className="join-value-points m-8"
                 data-sal="slide-up"
                 data-sal-duration="1000"
                 data-sal-delay="400"
@@ -86,13 +86,13 @@ policies will perform come claim time.
             </div>
 
             <div className="text-center">
-              <Link
+            <a target="_blank" rel="noreferrer nofollower" href="https://rhodiumtalent.applytojob.com/apply/PGvTsgxAmv/Licensed-Insurance-Agent"
                         data-sal="slide-up"
                         data-sal-duration="1000"
                         data-sal-easing="ease" 
-                          to="quote" className="blue-btn secondary">
+                        className="blue-btn secondary">
                 Join Our Team
-              </Link>
+              </a>
             </div>
 
         </div>
@@ -125,9 +125,9 @@ policies will perform come claim time.
             data-sal-duration="1000"
             data-sal-easing="ease" 
           >
-            <Link to="quote" className="blue-btn primary">
+            <a target="_blank" rel="noreferrer nofollower" href="https://rhodiumtalent.applytojob.com/apply/PGvTsgxAmv/Licensed-Insurance-Agent" className="blue-btn primary">
               Join Our Team
-            </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -142,7 +142,7 @@ policies will perform come claim time.
         <div className="lg:w-7/12 mx-6 text-center flex flex-col justify-center md:p-6 ">
           <h2>Who We Are</h2>
           <p>We started Ott Insurance Agency because we believe our community shouldn’t have to deal with sneaky salesmen or becoming an insurance expert just toget the coverage they deserve.</p>
-          <a href="/jobs" className="btn blue-btn primary">
+          <a target="_blank" rel="noreferrer nofollower" href="https://rhodiumtalent.applytojob.com/apply/PGvTsgxAmv/Licensed-Insurance-Agent" className="btn blue-btn primary">
             Apply Today
           </a>
         </div>
