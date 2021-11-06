@@ -153,6 +153,10 @@ header {
     border: 1px solid var(--secondary-color);
 }
 
+.jobs-page header .blue-btn.secondary{
+    border: 1px solid #fff;
+}
+
 .blue-btn {
     padding: 10px 20px;
     background-color: var(--primary-color);
@@ -190,7 +194,7 @@ header {
     font-size: 16px;
 }
 
-.two-col-wrap .text-side {
+.two-col-wrap .text-side, .join-team-wrapper h2, .join-team-wrapper p {
     color: var(--text-color);
 }
 
@@ -363,6 +367,18 @@ header {
     object-position: right;
 }
 
+.jobs-page .join-team .ott-img-jobs img {
+    border: 10px solid #fff;
+}
+
+.jobs-page .join-team {
+    background-color: var(--secondary-color);
+}
+
+.jobs-page .join-team h2, .jobs-page .join-team p {
+    color: #fff;
+}
+
 .ott-img-jobs  {
     width: 380px;
     height: 380px;
@@ -439,4 +455,19 @@ header {
 
 .address-footer {
     text-decoration: underline;
+}
+
+/* Jobs */
+.join-team-wrapper {
+    box-shadow: 2px 2px 6px 4px rgb(104, 104, 104);
+}
+
+.join-team-wrapper h2 {
+    font-size: 36px;
+}
+
+@media only screen and (max-width: 650px) {
+    .join-team-wrapper h2 {
+        font-size: 20px;
+    }
 }
