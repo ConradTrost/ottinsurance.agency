@@ -55,7 +55,7 @@ const HomePage = () => {
                         data-sal-duration="1000"
                         data-sal-easing="ease" 
                         >
-              We hear "I thought I was covered" from new customer almost every day. <br />
+              We hear "I thought I was covered" from new customers almost every day. <br />
               They come to us after a disaster with their budget plan, or because a confusing policy left them vulnerable
               and it cost them everything
               </p>
@@ -242,7 +242,7 @@ you need to protect what matters most. Here’s how it works:</p>
 
         <div className="lg:w-7/12 mx-6 text-center flex flex-col justify-center md:p-6">
           <h2>Join Our Team</h2>
-          <p>We are on a mission to help our community protect what matters most and understand exactly how their policy will perform come claim time.</p>
+          <p>We are on a mission to help our community protect what matters most and understand exactly how their policy will perform when they need to file a claim.</p>
           <a href="/jobs" className="btn blue-btn secondary">
             Join Us
           </a>

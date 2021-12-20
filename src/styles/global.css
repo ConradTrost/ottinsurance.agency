@@ -332,6 +332,13 @@ header {
 .quote-container iframe {
     max-width: 100%;
     height: calc(100vh - 10rem);
+    padding-top: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+    .quote-container iframe {
+        padding-top: 80px;
+    }
 }
 
 .instructions-container {

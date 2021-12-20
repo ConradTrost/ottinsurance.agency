@@ -38,7 +38,7 @@ const JobsPage = () => {
           <p>
           We are on a mission to help our community protect 
 what matters most and understand exactly how their
-policies will perform come claim time.
+policies will perform when they need to file a claim.
           </p>
           </div>
           
@@ -61,7 +61,7 @@ policies will perform come claim time.
                 data-sal-easing="ease" >
                 <StaticImage className="w-2/5 mb-6 md:mb-2 m-auto" alt="" src="../images/value-driven.png" />
                 <h3 className="text-white">Value Driven</h3>
-                <p>Do you people rave about the value you bring and look to you for that perfect recommendation?</p>
+                <p>Do people rave about the value you bring and look to you for that perfect recommendation?</p>
               </div>
 
               <div className="join-value-points m-8"
@@ -71,7 +71,7 @@ policies will perform come claim time.
                 data-sal-easing="ease" >
                 <StaticImage className="w-2/5 mb-6 md:mb-2 m-auto" alt="" src="../images/optimistic.png" />
                 <h3 className="text-white">Relentlessly Optimistic</h3>
-                <p>Does your positive outlookallow you to achieve lofty goals and persevere through challenges?</p>
+                <p>Does your positive outlook allow you to achieve lofty goals and persevere through challenges?</p>
               </div>
 
               <div className="join-value-points m-8"
@@ -141,7 +141,7 @@ policies will perform come claim time.
 
         <div className="lg:w-7/12 mx-6 text-center flex flex-col justify-center md:p-6 ">
           <h2>Who We Are</h2>
-          <p>We started Ott Insurance Agency because we believe our community shouldn’t have to deal with sneaky salesmen or becoming an insurance expert just toget the coverage they deserve.</p>
+          <p>We started Ott Insurance Agency because we believe our community shouldn’t have to deal with sneaky salesmen or becoming an insurance expert just to get the coverage they deserve.</p>
           <a target="_blank" rel="noreferrer nofollower" href="https://rhodiumtalent.applytojob.com/apply/PGvTsgxAmv/Licensed-Insurance-Agent" className="btn blue-btn primary">
             Apply Today
           </a>
