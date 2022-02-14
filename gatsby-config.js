@@ -55,14 +55,6 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "images",
-        path: "./src/images/",
-      },
-      __key: "images",
-    },
-    {
       resolve: "gatsby-source-contentful",
       options: {
         spaceId: "7milf0fg5dwl",
