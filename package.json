@@ -16,6 +16,7 @@
     "deploy": "gatsby build && gh-pages -d public"
   },
   "dependencies": {
+    "@contentful/rich-text-html-renderer": "^15.11.1",
     "dotenv": "^16.0.0",
     "gatsby": "^4.7.1",
     "gatsby-plugin-google-analytics": "^4.7.0",

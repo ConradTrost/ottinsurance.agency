@@ -6,7 +6,12 @@ if (process.env.NODE_ENV !== "production") {
 
 module.exports = {
   siteMetadata: {
-    title: "ottinsurance.agency",
+    title: "Ott Insurance Agency",
+    author: "Kristen Ott",
+    siteUrl: "https://ottinsurance.agency",
+    social: {
+      facebook: "ottinsuranceagency.farmers",
+    },
   },
   plugins: [
     "gatsby-plugin-postcss",
